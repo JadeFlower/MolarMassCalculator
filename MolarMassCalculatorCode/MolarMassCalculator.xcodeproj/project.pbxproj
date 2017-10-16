@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5701687C1F27C39500E5C922 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5701687B1F27C39500E5C922 /* AppDelegate.swift */; };
+		5701687E1F27C39500E5C922 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5701687D1F27C39500E5C922 /* FirstViewController.swift */; };
+		570168801F27C39500E5C922 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5701687F1F27C39500E5C922 /* SecondViewController.swift */; };
+		570168831F27C39500E5C922 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 570168811F27C39500E5C922 /* Main.storyboard */; };
+		570168851F27C39500E5C922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 570168841F27C39500E5C922 /* Assets.xcassets */; };
+		570168881F27C39500E5C922 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 570168861F27C39500E5C922 /* LaunchScreen.storyboard */; };
+		570168931F27C39600E5C922 /* MolarMassCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570168921F27C39600E5C922 /* MolarMassCalculatorTests.swift */; };
+		5701689E1F27C39600E5C922 /* MolarMassCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5701689D1F27C39600E5C922 /* MolarMassCalculatorUITests.swift */; };
+		570168AC1F27CEA800E5C922 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570168AB1F27CEA800E5C922 /* Constants.swift */; };
+		570168AE1F28D51300E5C922 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570168AD1F28D51300E5C922 /* Element.swift */; };
+		573D617D1F3C9D5800B6EE82 /* Chrysalis Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 573D617C1F3C9D5800B6EE82 /* Chrysalis Logo.png */; };
+		5780B5D51F449E02002B34A7 /* lab-flask.png in Resources */ = {isa = PBXBuildFile; fileRef = 5780B5D41F449E02002B34A7 /* lab-flask.png */; };
+		5780B5D71F44A214002B34A7 /* food-scale-tool.png in Resources */ = {isa = PBXBuildFile; fileRef = 5780B5D61F44A214002B34A7 /* food-scale-tool.png */; };
+		57A705901F32271E006F3CA7 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A7058F1F32271E006F3CA7 /* ThirdViewController.swift */; };
+		57A705921F3228AD006F3CA7 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A705911F3228AD006F3CA7 /* FourthViewController.swift */; };
+		57A705941F325B41006F3CA7 /* calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = 57A705931F325B41006F3CA7 /* calculator.png */; };
+		57A705961F325B62006F3CA7 /* info-with-circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 57A705951F325B62006F3CA7 /* info-with-circle.png */; };
+		57EABA1E1F3B7B0500D2475F /* buttonClick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 57EABA1C1F3B7B0500D2475F /* buttonClick.wav */; };
+		57EABA1F1F3B7B0500D2475F /* buttonDelete.wav in Resources */ = {isa = PBXBuildFile; fileRef = 57EABA1D1F3B7B0500D2475F /* buttonDelete.wav */; };
+		57EABA211F3B7DBB00D2475F /* switchSeg.wav in Resources */ = {isa = PBXBuildFile; fileRef = 57EABA201F3B7DBB00D2475F /* switchSeg.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5701688F1F27C39600E5C922 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 570168701F27C39500E5C922 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 570168771F27C39500E5C922;
+			remoteInfo = MolarMassCalculator;
+		};
+		5701689A1F27C39600E5C922 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 570168701F27C39500E5C922 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 570168771F27C39500E5C922;
+			remoteInfo = MolarMassCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		570168781F27C39500E5C922 /* MolarMassCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MolarMassCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5701687B1F27C39500E5C922 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5701687D1F27C39500E5C922 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		5701687F1F27C39500E5C922 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		570168821F27C39500E5C922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		570168841F27C39500E5C922 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		570168871F27C39500E5C922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		570168891F27C39500E5C922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5701688E1F27C39600E5C922 /* MolarMassCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MolarMassCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		570168921F27C39600E5C922 /* MolarMassCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolarMassCalculatorTests.swift; sourceTree = "<group>"; };
+		570168941F27C39600E5C922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		570168991F27C39600E5C922 /* MolarMassCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MolarMassCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5701689D1F27C39600E5C922 /* MolarMassCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolarMassCalculatorUITests.swift; sourceTree = "<group>"; };
+		5701689F1F27C39600E5C922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		570168AB1F27CEA800E5C922 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		570168AD1F28D51300E5C922 /* Element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
+		573D617C1F3C9D5800B6EE82 /* Chrysalis Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chrysalis Logo.png"; sourceTree = "<group>"; };
+		5780B5D41F449E02002B34A7 /* lab-flask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "lab-flask.png"; path = "../../../App 1/Gas Law Paid Version/Gas_law/lab-flask.png"; sourceTree = "<group>"; };
+		5780B5D61F44A214002B34A7 /* food-scale-tool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "food-scale-tool.png"; path = "../../../../Downloads/food-scale-tool.png"; sourceTree = "<group>"; };
+		57A7058F1F32271E006F3CA7 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		57A705911F3228AD006F3CA7 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		57A705931F325B41006F3CA7 /* calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calculator.png; sourceTree = "<group>"; };
+		57A705951F325B62006F3CA7 /* info-with-circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info-with-circle.png"; sourceTree = "<group>"; };
+		57EABA1C1F3B7B0500D2475F /* buttonClick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = buttonClick.wav; sourceTree = "<group>"; };
+		57EABA1D1F3B7B0500D2475F /* buttonDelete.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = buttonDelete.wav; sourceTree = "<group>"; };
+		57EABA201F3B7DBB00D2475F /* switchSeg.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = switchSeg.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		570168751F27C39500E5C922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5701688B1F27C39600E5C922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		570168961F27C39600E5C922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5701686F1F27C39500E5C922 = {
+			isa = PBXGroup;
+			children = (
+				5701687A1F27C39500E5C922 /* MolarMassCalculator */,
+				570168911F27C39600E5C922 /* MolarMassCalculatorTests */,
+				5701689C1F27C39600E5C922 /* MolarMassCalculatorUITests */,
+				570168791F27C39500E5C922 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		570168791F27C39500E5C922 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				570168781F27C39500E5C922 /* MolarMassCalculator.app */,
+				5701688E1F27C39600E5C922 /* MolarMassCalculatorTests.xctest */,
+				570168991F27C39600E5C922 /* MolarMassCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5701687A1F27C39500E5C922 /* MolarMassCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				5701687B1F27C39500E5C922 /* AppDelegate.swift */,
+				5701687D1F27C39500E5C922 /* FirstViewController.swift */,
+				5701687F1F27C39500E5C922 /* SecondViewController.swift */,
+				57A7058F1F32271E006F3CA7 /* ThirdViewController.swift */,
+				57A705911F3228AD006F3CA7 /* FourthViewController.swift */,
+				570168811F27C39500E5C922 /* Main.storyboard */,
+				570168841F27C39500E5C922 /* Assets.xcassets */,
+				570168861F27C39500E5C922 /* LaunchScreen.storyboard */,
+				570168891F27C39500E5C922 /* Info.plist */,
+				570168AB1F27CEA800E5C922 /* Constants.swift */,
+				570168AD1F28D51300E5C922 /* Element.swift */,
+				57A705931F325B41006F3CA7 /* calculator.png */,
+				57A705951F325B62006F3CA7 /* info-with-circle.png */,
+				57EABA1C1F3B7B0500D2475F /* buttonClick.wav */,
+				57EABA1D1F3B7B0500D2475F /* buttonDelete.wav */,
+				57EABA201F3B7DBB00D2475F /* switchSeg.wav */,
+				573D617C1F3C9D5800B6EE82 /* Chrysalis Logo.png */,
+				5780B5D41F449E02002B34A7 /* lab-flask.png */,
+				5780B5D61F44A214002B34A7 /* food-scale-tool.png */,
+			);
+			path = MolarMassCalculator;
+			sourceTree = "<group>";
+		};
+		570168911F27C39600E5C922 /* MolarMassCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				570168921F27C39600E5C922 /* MolarMassCalculatorTests.swift */,
+				570168941F27C39600E5C922 /* Info.plist */,
+			);
+			path = MolarMassCalculatorTests;
+			sourceTree = "<group>";
+		};
+		5701689C1F27C39600E5C922 /* MolarMassCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5701689D1F27C39600E5C922 /* MolarMassCalculatorUITests.swift */,
+				5701689F1F27C39600E5C922 /* Info.plist */,
+			);
+			path = MolarMassCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		570168771F27C39500E5C922 /* MolarMassCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 570168A21F27C39600E5C922 /* Build configuration list for PBXNativeTarget "MolarMassCalculator" */;
+			buildPhases = (
+				570168741F27C39500E5C922 /* Sources */,
+				570168751F27C39500E5C922 /* Frameworks */,
+				570168761F27C39500E5C922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MolarMassCalculator;
+			productName = MolarMassCalculator;
+			productReference = 570168781F27C39500E5C922 /* MolarMassCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5701688D1F27C39600E5C922 /* MolarMassCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 570168A51F27C39600E5C922 /* Build configuration list for PBXNativeTarget "MolarMassCalculatorTests" */;
+			buildPhases = (
+				5701688A1F27C39600E5C922 /* Sources */,
+				5701688B1F27C39600E5C922 /* Frameworks */,
+				5701688C1F27C39600E5C922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				570168901F27C39600E5C922 /* PBXTargetDependency */,
+			);
+			name = MolarMassCalculatorTests;
+			productName = MolarMassCalculatorTests;
+			productReference = 5701688E1F27C39600E5C922 /* MolarMassCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		570168981F27C39600E5C922 /* MolarMassCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 570168A81F27C39600E5C922 /* Build configuration list for PBXNativeTarget "MolarMassCalculatorUITests" */;
+			buildPhases = (
+				570168951F27C39600E5C922 /* Sources */,
+				570168961F27C39600E5C922 /* Frameworks */,
+				570168971F27C39600E5C922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5701689B1F27C39600E5C922 /* PBXTargetDependency */,
+			);
+			name = MolarMassCalculatorUITests;
+			productName = MolarMassCalculatorUITests;
+			productReference = 570168991F27C39600E5C922 /* MolarMassCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		570168701F27C39500E5C922 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = SETSI;
+				TargetAttributes = {
+					570168771F27C39500E5C922 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = XCKL3W4H78;
+						ProvisioningStyle = Automatic;
+					};
+					5701688D1F27C39600E5C922 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 570168771F27C39500E5C922;
+					};
+					570168981F27C39600E5C922 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 570168771F27C39500E5C922;
+					};
+				};
+			};
+			buildConfigurationList = 570168731F27C39500E5C922 /* Build configuration list for PBXProject "MolarMassCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5701686F1F27C39500E5C922;
+			productRefGroup = 570168791F27C39500E5C922 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				570168771F27C39500E5C922 /* MolarMassCalculator */,
+				5701688D1F27C39600E5C922 /* MolarMassCalculatorTests */,
+				570168981F27C39600E5C922 /* MolarMassCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		570168761F27C39500E5C922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57A705961F325B62006F3CA7 /* info-with-circle.png in Resources */,
+				5780B5D51F449E02002B34A7 /* lab-flask.png in Resources */,
+				570168881F27C39500E5C922 /* LaunchScreen.storyboard in Resources */,
+				57EABA211F3B7DBB00D2475F /* switchSeg.wav in Resources */,
+				570168851F27C39500E5C922 /* Assets.xcassets in Resources */,
+				5780B5D71F44A214002B34A7 /* food-scale-tool.png in Resources */,
+				570168831F27C39500E5C922 /* Main.storyboard in Resources */,
+				57A705941F325B41006F3CA7 /* calculator.png in Resources */,
+				573D617D1F3C9D5800B6EE82 /* Chrysalis Logo.png in Resources */,
+				57EABA1E1F3B7B0500D2475F /* buttonClick.wav in Resources */,
+				57EABA1F1F3B7B0500D2475F /* buttonDelete.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5701688C1F27C39600E5C922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		570168971F27C39600E5C922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		570168741F27C39500E5C922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				570168801F27C39500E5C922 /* SecondViewController.swift in Sources */,
+				5701687C1F27C39500E5C922 /* AppDelegate.swift in Sources */,
+				5701687E1F27C39500E5C922 /* FirstViewController.swift in Sources */,
+				57A705921F3228AD006F3CA7 /* FourthViewController.swift in Sources */,
+				570168AC1F27CEA800E5C922 /* Constants.swift in Sources */,
+				57A705901F32271E006F3CA7 /* ThirdViewController.swift in Sources */,
+				570168AE1F28D51300E5C922 /* Element.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5701688A1F27C39600E5C922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				570168931F27C39600E5C922 /* MolarMassCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		570168951F27C39600E5C922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5701689E1F27C39600E5C922 /* MolarMassCalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		570168901F27C39600E5C922 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 570168771F27C39500E5C922 /* MolarMassCalculator */;
+			targetProxy = 5701688F1F27C39600E5C922 /* PBXContainerItemProxy */;
+		};
+		5701689B1F27C39600E5C922 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 570168771F27C39500E5C922 /* MolarMassCalculator */;
+			targetProxy = 5701689A1F27C39600E5C922 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		570168811F27C39500E5C922 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				570168821F27C39500E5C922 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		570168861F27C39500E5C922 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				570168871F27C39500E5C922 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		570168A01F27C39600E5C922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		570168A11F27C39600E5C922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		570168A31F27C39600E5C922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = XCKL3W4H78;
+				INFOPLIST_FILE = MolarMassCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chrysalis.molar-mass";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		570168A41F27C39600E5C922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = XCKL3W4H78;
+				INFOPLIST_FILE = MolarMassCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chrysalis.molar-mass";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		570168A61F27C39600E5C922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MolarMassCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = t.MolarMassCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MolarMassCalculator.app/MolarMassCalculator";
+			};
+			name = Debug;
+		};
+		570168A71F27C39600E5C922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MolarMassCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = t.MolarMassCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MolarMassCalculator.app/MolarMassCalculator";
+			};
+			name = Release;
+		};
+		570168A91F27C39600E5C922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MolarMassCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = t.MolarMassCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MolarMassCalculator;
+			};
+			name = Debug;
+		};
+		570168AA1F27C39600E5C922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MolarMassCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = t.MolarMassCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MolarMassCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		570168731F27C39500E5C922 /* Build configuration list for PBXProject "MolarMassCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				570168A01F27C39600E5C922 /* Debug */,
+				570168A11F27C39600E5C922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		570168A21F27C39600E5C922 /* Build configuration list for PBXNativeTarget "MolarMassCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				570168A31F27C39600E5C922 /* Debug */,
+				570168A41F27C39600E5C922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		570168A51F27C39600E5C922 /* Build configuration list for PBXNativeTarget "MolarMassCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				570168A61F27C39600E5C922 /* Debug */,
+				570168A71F27C39600E5C922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		570168A81F27C39600E5C922 /* Build configuration list for PBXNativeTarget "MolarMassCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				570168A91F27C39600E5C922 /* Debug */,
+				570168AA1F27C39600E5C922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 570168701F27C39500E5C922 /* Project object */;
+}
